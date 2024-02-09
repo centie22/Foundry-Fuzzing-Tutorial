@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
-contract simpleArithemetic {
+contract simpleArithmetic {
     uint addValue;
     uint subValue;
     uint divValue;
