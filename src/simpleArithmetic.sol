@@ -23,7 +23,7 @@ contract simpleArithmetic {
     }
 
     function divNum (uint a, uint b) external returns (uint){
-        if (a > 0 && a > b) {
+        if (a > 0 && a > b && b > 0) {
             divValue = a/b;
         } else {
             divValue = 0;

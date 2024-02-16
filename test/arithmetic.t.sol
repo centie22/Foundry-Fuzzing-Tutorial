@@ -26,4 +26,20 @@ contract arithmeticTest is Test {
     function testDiv () public {
         arithmetic.divNum(22, 11);
     }
+
+    function testFuzz_Add (uint128 a,uint128 b) public {
+        arithmetic.addNum(a, b);
+    }
+
+    function testFuzz_Sub (uint a, uint b) public {
+        arithmetic.subNum(a, b);
+    }
+
+    function testFuzz_Mul (uint128 a, uint128 b) public{
+        arithmetic.mulNum(a, b);
+    }
+
+    function testFuzz_Div (uint a, uint b) public{
+        arithmetic.divNum(a, b);
+    }
 }
