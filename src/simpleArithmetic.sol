@@ -2,10 +2,10 @@
 pragma solidity ^0.8.13;
 
 contract simpleArithmetic {
-    uint addValue;
-    uint subValue;
-    uint divValue;
-    uint mulvalue;
+    uint public addValue;
+    uint public subValue;
+    uint public divValue;
+    uint public mulvalue;
 
 
     function addNum (uint a, uint b) external returns (uint) {
